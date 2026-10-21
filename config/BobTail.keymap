@@ -120,7 +120,7 @@
             sensor-bindings = <&encoder_msc_down_up>;
         };
 
-        layer_6 {
+        Fps {
             bindings = <
 &trans  &trans  &trans  &trans  &trans                      &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans  &trans  &trans  &trans  &trans  &trans
