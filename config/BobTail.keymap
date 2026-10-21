@@ -177,7 +177,7 @@
         Fps {
             bindings = <
 &trans  &trans  &trans  &trans  &trans                          &trans  &trans  &trans  &trans  &trans
-&trans  &trans  &trans  &trans  &trans  &trans      &trans      &trans  &trans  &trans  &trans  &trans
+&trans  &trans  &trans  &trans  &trans  &trans      &trans      &kp A   &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &trans      &trans  &trans  &trans  &trans  &trans
 &trans  &trans  &trans  &trans  &trans  &trans      &tog_off 6  &trans                          &trans
             >;
