@@ -67,6 +67,11 @@
             bindings = <&mt LC(LS(T)) LC(F4)>;
             key-positions = <9 8>;
         };
+
+        parenthesis {
+            bindings = <&parenthesis>;
+            key-positions = <21 20>;
+        };
     };
 
     behaviors {
@@ -88,6 +93,15 @@
             compatible = "zmk,behavior-toggle-layer";
             #binding-cells = <1>;
             toggle-mode = "off";
+        };
+    };
+
+    macros {
+        parenthesis: parenthesis {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings = <&kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS &kp LEFT_ARROW>;
+            label = "PARENTHESIS";
         };
     };
 
