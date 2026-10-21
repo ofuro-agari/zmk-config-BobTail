@@ -18,14 +18,49 @@
     combos {
         compatible = "zmk,combos";
 
-        shift_tab {
-            bindings = <&kp LANG2>;
-            key-positions = <12 13>;
+        middleclick {
+            bindings = <&mkp MB3>;
+            key-positions = <31 32>;
         };
 
-        lang {
-            bindings = <&kp LANG1>;
+        comma_singlequote {
+            bindings = <&mt SINGLE_QUOTE COMMA>;
             key-positions = <18 19>;
+        };
+
+        period_doublequote {
+            bindings = <&mt DOUBLE_QUOTES PERIOD>;
+            key-positions = <30 31>;
+        };
+
+        exclamation_semicolon {
+            bindings = <&mt SEMICOLON EXCLAMATION>;
+            key-positions = <13 12>;
+        };
+
+        question_colon {
+            bindings = <&mt COLON QUESTION>;
+            key-positions = <24 25>;
+        };
+
+        redo {
+            bindings = <&kp LC(Y)>;
+            key-positions = <5 6>;
+        };
+
+        undo {
+            bindings = <&kp LC(Z)>;
+            key-positions = <3 4>;
+        };
+
+        copy_cut {
+            bindings = <&mt LC(X) LC(C)>;
+            key-positions = <18 17>;
+        };
+
+        paste {
+            bindings = <&kp LC(V)>;
+            key-positions = <13 14>;
         };
     };
 
