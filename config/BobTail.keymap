@@ -86,6 +86,21 @@
             bindings = <&kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS &kp LEFT_ARROW>;
             label = "PARENTHESIS";
         };
+
+        rakuten: rakuten {
+            compatible = "zmk,behavior-macro";
+            #binding-cells = <0>;
+            bindings =
+                <&kp F6>,
+                <&macro_wait_time 100>,
+                <&kp RIGHT_ARROW>,
+                <&macro_wait_time 100>,
+                <&kp POUND &kp R &kp A &kp K &kp U &kp T &kp E &kp N &kp LS(L) &kp I &kp M &kp I &kp T &kp E &kp D &kp LS(I) &kp D &kp UNDER &kp C &kp A &kp R &kp T>,
+                <&macro_wait_time 100>,
+                <&kp ENTER>;
+
+            label = "RAKUTEN";
+        };
     };
 
     keymap {
@@ -127,7 +142,7 @@
         Shortcutkey {
             bindings = <
 &none  &none         &none             &none           &none                        &kp LA(KP_NUMBER_1)  &kp LA(KP_NUMBER_2)  &kp LA(KP_NUMBER_3)  &kp LA(KP_NUMBER_4)  &kp LA(KP_NUMBER_5)
-&none  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &none  &none      &none      &none                &none                &none                &none                &none
+&none  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &none  &none      &none      &rakuten             &none                &none                &none                &none
 &none  &none         &none             &none           &none  &none      &none      &none                &none                &none                &none                &none
 &none  &none         &none             &none           &none  &none      &tog_on 6  &kp LA(KP_NUMBER_0)                                                                 &none
             >;
