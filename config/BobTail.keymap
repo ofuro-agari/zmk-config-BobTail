@@ -97,7 +97,8 @@
                 <&macro_wait_time 100>,
                 <&kp POUND &kp R &kp A &kp K &kp U &kp T &kp E &kp N &kp LS(L) &kp I &kp M &kp I &kp T &kp E &kp D &kp LS(I) &kp D &kp UNDER &kp C &kp A &kp R &kp T>,
                 <&macro_wait_time 100>,
-                <&kp ENTER>;
+                <&kp ENTER>,
+                <&macro_press>;
 
             label = "RAKUTEN";
         };
@@ -142,7 +143,7 @@
         Shortcutkey {
             bindings = <
 &none  &none         &none             &none           &none                        &kp LA(KP_NUMBER_1)  &kp LA(KP_NUMBER_2)  &kp LA(KP_NUMBER_3)  &kp LA(KP_NUMBER_4)  &kp LA(KP_NUMBER_5)
-&none  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &none  &none      &none      &rakuten             &kp CAPSLOCK         &none                &none                &none
+&none  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT  &none  &none      &none      &none                &none                &none                &none                &none
 &none  &none         &none             &none           &none  &none      &none      &none                &none                &none                &none                &none
 &none  &none         &none             &none           &none  &none      &tog_on 6  &kp LA(KP_NUMBER_0)                                                                 &none
             >;
