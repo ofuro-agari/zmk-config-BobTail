@@ -108,10 +108,10 @@
 
         Default {
             bindings = <
-&kp Q          &kp W                  &kp E               &kp R             &kp T                                                      &kp Y        &kp U              &kp I                &kp O            &kp P
-&kp A          &mt LEFT_ALT S         &mt LEFT_CONTROL D  &mt LEFT_SHIFT F  &kp G        &none                    &lt 4 LS(F13)        &kp H        &mt RIGHT_SHIFT J  &mt RIGHT_CONTROL K  &mt RIGHT_ALT L  &lt 5 MINUS
-&kp Z          &kp X                  &kp C               &kp V             &kp B        &mt LS(F16) LS(F15)      &mt LS(F17) LS(F14)  &kp N        &kp M              &mkp MB1             &mkp MB2         &mkp MB4
-&kp LC(SPACE)  &mt CAPSLOCK LEFT_WIN  &kp ESCAPE          &lt 1 TAB         &lt 2 SPACE  &lt 3 DELETE             &kp BACKSPACE        &lt 5 ENTER                                                           &mkp MB5
+&kp Q                   &kp W           &kp E               &kp R             &kp T                                                      &kp Y        &kp U              &kp I                &kp O            &kp P
+&kp A                   &mt LEFT_ALT S  &mt LEFT_CONTROL D  &mt LEFT_SHIFT F  &kp G        &none                    &lt 4 LS(F13)        &kp H        &mt RIGHT_SHIFT J  &mt RIGHT_CONTROL K  &mt RIGHT_ALT L  &lt 5 MINUS
+&kp Z                   &kp X           &kp C               &kp V             &kp B        &mt LS(F16) LS(F15)      &mt LS(F17) LS(F14)  &kp N        &kp M              &mkp MB1             &mkp MB2         &mkp MB4
+&mt CAPSLOCK LC(SPACE)  &kp LEFT_WIN    &kp ESCAPE          &lt 1 TAB         &lt 2 SPACE  &lt 3 DELETE             &kp BACKSPACE        &lt 5 ENTER                                                           &mkp MB5
             >;
 
             sensor-bindings = <&encoder_msc_down_up>;
