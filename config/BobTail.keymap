@@ -86,22 +86,6 @@
             bindings = <&kp LEFT_PARENTHESIS &kp RIGHT_PARENTHESIS &kp LEFT_ARROW>;
             label = "PARENTHESIS";
         };
-
-        rakuten: rakuten {
-            compatible = "zmk,behavior-macro";
-            #binding-cells = <0>;
-            bindings =
-                <&kp F6>,
-                <&macro_wait_time 100>,
-                <&kp RIGHT_ARROW>,
-                <&macro_wait_time 100>,
-                <&kp POUND &kp R &kp A &kp K &kp U &kp T &kp E &kp N &kp LS(L) &kp I &kp M &kp I &kp T &kp E &kp D &kp LS(I) &kp D &kp UNDER &kp C &kp A &kp R &kp T>,
-                <&macro_wait_time 100>,
-                <&kp ENTER>,
-                <&macro_press>;
-
-            label = "RAKUTEN";
-        };
     };
 
     keymap {
